@@ -3,6 +3,6 @@ resource "azuredevops_project" "myproject" {
   description        = "Project to test the Flower plugin development"
   features  = {
     testplans = "disabled"
-    boards    = "disabled"
+    boards = "disabled"
   }
 }
